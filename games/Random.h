@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <time.h>
 
+//get random numbers
+
 class RandNumber
 {
 public:

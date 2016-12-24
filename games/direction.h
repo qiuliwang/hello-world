@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//get direction according to keyboard
+
 class Direction
 {
 public:

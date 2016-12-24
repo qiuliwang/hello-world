@@ -71,7 +71,6 @@ void Square::printSquare()
 	{
 		for(int j = 0; j < N; j ++)
 		{
-			//cout << numbers[i][j] << " ";
 			printf("%6d", numbers[i][j]);
 			printf("  ");
 		}
