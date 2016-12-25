@@ -1,6 +1,10 @@
+//created by WangQL
+
 #include <iostream>
+
+using namespace std;
 
 int main()
 {
-	std::cout << "hello world!" << std::endl;
+	cout << "hello world!" << endl;
 }

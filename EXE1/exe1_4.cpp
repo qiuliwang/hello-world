@@ -2,18 +2,19 @@
 //418674878@qq.com
 #include <iostream>
 
-int mul(int a, int b);
+void mulP(int *n, int a, int b);
 
 int main()
 {
 	int a, b;
+	int *ans = &a;
 	std::cin >> a >> b;
 	std::cout << "answer is: " << a * b << std::endl;
-	
-	std::cout << mul(a, b) << std::endl;
+	mulP(ans, a, b);
+	std::cout << "is: " << *ans << std::endl;
 }
 
-int mul(int a, int b)
+void mulP(int *n, int a, int b)
 {
-	return a * b;
+	*n = a * b;
 }
