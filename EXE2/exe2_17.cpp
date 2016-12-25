@@ -15,7 +15,6 @@ int main()
 	//	<< local_str << " + " << local_int << std::endl;
 	std::cout << local_int << std::endl;
 	std::cout << x << std::endl;
-	
-	
+
 	return 0;
 }
