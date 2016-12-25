@@ -1,2 +1,3 @@
 personal exercises
-git hub
+git hub exercises
+C++ or sth else
