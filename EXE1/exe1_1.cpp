@@ -6,7 +6,6 @@
 int main()
 {
 	int a;
-	int b;
-	float c;
+	int c;
 	return 0;
 }
