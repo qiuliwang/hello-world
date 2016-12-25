@@ -1,0 +1,2 @@
+personal exercises
+git hub
