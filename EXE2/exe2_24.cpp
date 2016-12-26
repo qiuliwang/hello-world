@@ -7,7 +7,7 @@ int main()
 	int yl;
 	int &rval = a;
 	std::cout << a << " " << rval << std::endl;
-	rval = 30;
+	rval = 20;
 	std::cout << a << " " << rval << std::endl;
 	const int b = 20;
 	//b = 30;
