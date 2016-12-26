@@ -1,3 +1,4 @@
+//delete
 #include <iostream>
 
 int main()
@@ -8,6 +9,5 @@ int main()
 		std::cout << i << " " << std::endl;
 		sum += i;
 	}
-	std::cout << i << " " << std::endl;
 	return 0;
 }
