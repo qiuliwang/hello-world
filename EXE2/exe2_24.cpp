@@ -3,8 +3,8 @@
 int main()
 {
 	int a = 10;
+	int xxx ;
 	int xl;
-	int xxxxx;
 	int yl;
 	int &rval = a;
 	std::cout << a << " " << rval << std::endl;
