@@ -2,6 +2,7 @@
 
 int main()
 {
+	std::cout << "test" << std::endl;
 	int i, &ri = i;
 	i = 5;
 	ri = 10;
