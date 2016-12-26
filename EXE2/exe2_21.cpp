@@ -1,3 +1,5 @@
+//modify
+//error because i cannot get asscessed
 #include <iostream>
 
 int main()
@@ -10,7 +12,7 @@ int main()
 		out = i;
 	}
 
-	std::cout << "Sum form 0 to " << out
+	std::cout << "Sum form 0 to " << i
 		<< " is " << sum << std::endl;
 
 	return 0;
