@@ -6,7 +6,7 @@
 int main()
 {
 	int a = 10;
-	int xxx ;
+	int xx ;
 	//fuckyou
 	int yl;
 	int &rval = a;
@@ -17,7 +17,7 @@ int main()
 	//b = 30;
 	const int &rval2 = b;
 	std::cout << b << " and " << rval2 << std::endl;
-	
+
 	int sum = 0;
 	int out = 0;
 	int test = sum;
