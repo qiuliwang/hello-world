@@ -11,5 +11,4 @@ int main()
 	//b = 30;
 	const int &rval2 = b;
 	std::cout << b << " " << rval2 << std::endl;
-	//rval2 = 4;
 }
