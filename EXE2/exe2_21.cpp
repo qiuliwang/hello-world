@@ -13,6 +13,4 @@ int main()
 		sum += i;
 		out = i;
 	}
-
-
 }
