@@ -1,0 +1,75 @@
+diff --git a/EXE2/exe2_24.cpp b/EXE2/exe2_24.cpp
+index 5c5a475..7df6377 100644
+--- a/EXE2/exe2_24.cpp
++++ b/EXE2/exe2_24.cpp
+@@ -3,6 +3,8 @@
+ int main()
+ {
+ 	int a = 10;
++	int xl;
++	int yl;
+ 	int &rval = a;
+ 	std::cout << a << " " << rval << std::endl;
+ 	rval = 30;
+
+diff --git a/EXE2/exe2_24.cpp b/EXE2/exe2_24.cpp
+index 5c5a475..7df6377 100644
+--- a/EXE2/exe2_24.cpp
++++ b/EXE2/exe2_24.cpp
+@@ -3,6 +3,8 @@
+ int main()
+ {
+ 	int a = 10;
++	int xl;
++	int yl;
+ 	int &rval = a;
+ 	std::cout << a << " " << rval << std::endl;
+ 	rval = 30;
+diff --git a/EXE2/exe2_27.cpp b/EXE2/exe2_27.cpp
+index d416b86..0837b7d 100644
+--- a/EXE2/exe2_27.cpp
++++ b/EXE2/exe2_27.cpp
+@@ -5,6 +5,4 @@
+ 	std::cout << "test" << std::endl;
+ 	int i, &ri = i;
+ 	i = 5;
+-	ri = 10;
+-	std::cout << i << " " << ri << std::endl;
+ }
+\ No newline at end of file
+
+
+diff --git a/EXE2/exe2_24.cpp b/EXE2/exe2_24.cpp
+index 7df6377..7982356 100644
+--- a/EXE2/exe2_24.cpp
++++ b/EXE2/exe2_24.cpp
+@@ -7,7 +7,7 @@
+ 	int yl;
+ 	int &rval = a;
+ 	std::cout << a << " " << rval << std::endl;
+-	rval = 30;
++	rval = 20;
+ 	std::cout << a << " " << rval << std::endl;
+ 	const int b = 20;
+ 	//b = 30;
+	
+	
+diff --git a/EXE2/exe2_24.cpp b/EXE2/exe2_24.cpp
+index 7982356..64d0d92 100644
+--- a/EXE2/exe2_24.cpp
++++ b/EXE2/exe2_24.cpp
+@@ -6,11 +6,12 @@
+ 	int xl;
+ 	int yl;
+ 	int &rval = a;
++	int xxx;
+ 	std::cout << a << " " << rval << std::endl;
+ 	rval = 20;
+ 	std::cout << a << " " << rval << std::endl;
+ 	const int b = 20;
+ 	//b = 30;
+ 	const int &rval2 = b;
+-	std::cout << b << " " << rval2 << std::endl;
++	std::cout << b << " and " << rval2 << std::endl;
+ }
+\ No newline at end of file

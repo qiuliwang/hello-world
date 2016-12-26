@@ -4,9 +4,9 @@ int main()
 {
 	int a = 10;
 	int xl;
+	int xxxxx;
 	int yl;
 	int &rval = a;
-	int xxx;
 	std::cout << a << " " << rval << std::endl;
 	rval = 20;
 	std::cout << a << " " << rval << std::endl;
