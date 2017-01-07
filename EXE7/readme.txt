@@ -1,2 +1,4 @@
-function
-different parameters
+function;
+different parameters;
+pointer to functions;
+
