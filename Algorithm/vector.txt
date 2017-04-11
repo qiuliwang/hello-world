@@ -3,7 +3,7 @@
 3.at                得到编号位置的数据
 4.begin           得到数组头的指针
 5.end             得到数组的最后一个单元+1的指针
-6．front        得到数组头的引用
+6.front        得到数组头的引用
 7.back            得到数组的最后一个单元的引用
 8.max_size     得到vector最大可以是多大
 9.capacity       当前vector分配的大小
