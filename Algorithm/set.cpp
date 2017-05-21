@@ -32,6 +32,6 @@ int main()
         cout<<"3 found"<<endl;
 
     ite1 = iset.find(1);
-    if(ite1!=iset.end())
+    if(ite1==iset.end())
         cout<<"1 not found"<<endl;
 }
