@@ -1,4 +1,11 @@
 //WangQL May 29 2017
+
+/*
+equal_range(vec.begin(), vec.end(), 6);
+return a pair
+first is the first place that 6 appers, 
+and the second is the place after the last 6 appers
+*/
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -28,6 +35,10 @@ int main()
     pair< vector<int>::iterator, vector<int>::iterator > res;
     res = equal_range(vec.begin(), vec.end(), 6);
     cout << *res.first << " " << *res.second << endl;
-
+    /*
+    output:
+    1 3 5 6 6 6 10 6 56 78
+    6 56
+    */
     
 }

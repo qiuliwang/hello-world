@@ -44,4 +44,14 @@ int main()
     ptr = upper_bound(num, num + 10, 6);
     cout << *ptr << endl;
     return 0;
+    /*
+    output:
+    1 3 5 6 6 6 10 34 56 78
+    6
+    10
+    10
+    34
+    6
+    10
+    */
 }
