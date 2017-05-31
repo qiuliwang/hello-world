@@ -24,7 +24,7 @@ int main()
     for_each(vec.begin(), vec.end(), printValue);
     cout << endl;
     /*
-    output:
+    output: 
     3 2 1 7 6 5 4 8 9
     */
 }
