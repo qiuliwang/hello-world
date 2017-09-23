@@ -2,7 +2,6 @@
 #include <vector>
 
 using namespace std;
-
 template<class T>
 void print(const T a, const T b)
 {
